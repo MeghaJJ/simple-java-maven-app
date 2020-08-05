@@ -16,11 +16,11 @@
     </dependency>
   </dependencies>
 <distributionManagement>
-    <snapshotRepository>
+    <repository>
         <id>snapshots</id>
         <name>localhost.localdomain-snapshots</name>
         <url>http://192.168.163.141:8081/artifactory/libs-snapshot-local</url>
-    </snapshotRepository>
+    </repository>
 </distributionManagement>
   <build>
     <plugins>
