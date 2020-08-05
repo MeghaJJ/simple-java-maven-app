@@ -16,12 +16,6 @@
     </dependency>
   </dependencies>
   <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>Jfrog</name>
-        <url>http://192.168.163.141:8081/</url>
-    </repository>
-
     <snapshotRepository>
         <id>snapshots</id>
         <name>jfrog</name>
