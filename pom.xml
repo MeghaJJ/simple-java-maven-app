@@ -15,11 +15,11 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <distributionManagement>
+<distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>jfrog</name>
-        <url>http://192.168.163.141:8081/</url>
+        <name>localhost.localdomain-snapshots</name>
+        <url>http://192.168.163.141:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
   <build>
